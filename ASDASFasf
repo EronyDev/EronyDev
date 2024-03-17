@@ -1,0 +1,7 @@
+for i,v in ipairs(game.Workspace:GetDescendants()) do
+	if v:IsA('Script') or v:IsA('ModuleScript') then
+		print(v.Name)
+	else
+		print('nothing ther')
+	end
+end
